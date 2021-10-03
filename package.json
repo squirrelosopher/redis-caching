@@ -1,0 +1,23 @@
+{
+  "name": "redis-caching",
+  "version": "1.0.0",
+  "description": "A simple Node application with SQLite DB and Redis caching",
+  "main": "popular_movie.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/squirrelosopher/redis-caching.git"
+  },
+  "author": "Aleksandar Miladinović",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/squirrelosopher/redis-caching/issues"
+  },
+  "homepage": "https://github.com/squirrelosopher/redis-caching#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ioredis": "^4.27.9",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2",
+    "yargs": "^17.2.1"
+  }
+}
