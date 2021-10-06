@@ -1,7 +1,7 @@
 {
-  "name": "redis-caching",
+  "name": "redis-caching-queries",
   "version": "1.0.0",
-  "description": "A simple Node application with SQLite DB and Redis caching",
+  "description": "A simple Node application which demonstrates slow queries caching",
   "main": "popular_movie.js",
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/squirrelosopher/redis-caching/issues"
   },
-  "homepage": "https://github.com/squirrelosopher/redis-caching#readme",
+  "homepage": "https://github.com/squirrelosopher/redis-caching-queries#readme",
   "dependencies": {
     "dotenv": "^10.0.0",
     "ioredis": "^4.27.9",

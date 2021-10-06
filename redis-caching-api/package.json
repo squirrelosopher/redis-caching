@@ -1,0 +1,22 @@
+{
+  "name": "redis-caching-api",
+  "version": "1.0.0",
+  "description": "A simple Node application which demonstrates API Response caching",
+  "main": "weather_api.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/squirrelosopher/redis-caching.git"
+  },
+  "author": "Aleksandar Miladinović",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/squirrelosopher/redis-caching/issues"
+  },
+  "homepage": "https://github.com/squirrelosopher/redis-caching-api#readme",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "dotenv": "^10.0.0",
+    "ioredis": "^4.27.10",
+    "yargs": "^17.2.1"
+  }
+}
